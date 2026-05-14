@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  price-hawk:
+    build: .
+    container_name: ai_price_hawk
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - TZ=Asia/Shanghai
