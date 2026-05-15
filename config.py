@@ -24,4 +24,4 @@ EMAIL_FROM = "1519863276@qq.com"
 EMAIL_TO   = "1519863276@qq.com"
 SMTP_HOST  = "smtp.qq.com"
 SMTP_PORT  = 465
-SMTP_PASS  = "zbjpoowhlliujdhg"
+SMTP_PASS  = ""
